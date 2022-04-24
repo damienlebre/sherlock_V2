@@ -62,7 +62,7 @@
             $mail->Host = "localhost";
             $mail->Port = 1025;
             $mail->Charset = "utf-8";
-            $mail->addAddress('skunkman43@outlook.fr'); 
+            $mail->addAddress('skunkman43@hotmail.fr'); 
             $mail->setFrom($emailFrom);
             $mail->Subject = $subject;
             $mail->Body = $message;
