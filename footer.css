@@ -1,0 +1,42 @@
+footer{
+  background-color: black;
+  position: relative;
+  bottom: 0;   
+}
+footer h6{
+  text-align: center;  
+  color: #F8D9AD !important; 
+}
+.reseauxSociaux{
+  color: #F8D9AD ;
+}
+.reseauxSociaux ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Berkshire Swash', cursive;
+  
+}
+.iconReseauSociaux{
+  display: flex;
+  justify-content: space-around !important;
+}
+footer .reseauxSociaux ul li a{
+  font-size: 3.5em;
+}
+footer .facebook{
+  background: #fff;
+  color: #3b5998; 
+}
+footer .twitter{
+  background: #fff;
+  color: #26a7de;
+}
+footer .youtube{
+  background: #fff;
+  color: #b2071d;  
+}
+footer a{
+  width: 60px;
+  height: 60px;
+}

@@ -1,0 +1,27 @@
+nav{
+    height: 100px;
+}
+.navbar-dark{
+    transition:500ms ease;
+    background:transparent;
+  }
+  
+  .navbar-dark, footer {
+    background:rgba(0,0,0,0.6);
+  }
+  
+  .nav-link{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: x-large; 
+    -webkit-text-stroke: 1px black;       
+  }
+  
+  .nav-link:hover,
+  .store:hover{
+   color: #AA0705!important;
+   zoom: 110%; 
+   text-decoration-style: wavy;    
+   transition: 0.5s; 
+  }
+  
+ 

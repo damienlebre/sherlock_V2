@@ -1,0 +1,27 @@
+body{
+    font-family: 'Berkshire Swash', cursive;
+    background-color: #F8D9AD;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}  
+
+  #image1{
+    background-image: url(assets/images/1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;   
+    margin-bottom: -45px;     
+}  
+h1{
+    color: rgb(75, 70, 70);
+}  
+  
+.card-body{
+    background-color: rgba(0, 0, 0, 0.1);    
+}  
+.container{
+    justify-self: center;
+  
+}
