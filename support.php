@@ -62,7 +62,7 @@
             $mail->Host = "localhost";
             $mail->Port = 1025;
             $mail->Charset = "utf-8";
-            $mail->addAddress('skunkman43@hotmail.fr'); 
+            $mail->addAddress('support@sherlockholmes.fr'); 
             $mail->setFrom($emailFrom);
             $mail->Subject = $subject;
             $mail->Body = $message;
@@ -117,7 +117,8 @@
                             <!-- Submit button -->
                             <div class="d-grid">
                                 <button class="btn btn-dark btn-lg " id="submitButton" type="submit" name="submit">Submit</button>
-                                <p> <?php echo "$success" ?></p>
+                                <?php echo "<p>$success</p>";
+?>
                             </div>
                         </form>
                         <!-- End of contact form -->
